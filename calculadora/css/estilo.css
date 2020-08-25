@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+#container {
+    width: 1000px;
+    height: 650px;
+    margin: 20px auto;
+}
+
+
+
+#resultado {
+    height: 120px;
+}
+
+#historico {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+
+#botoes {
+    height: 400px;
+} 
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+
+.operator, .number {
+    cursor: pointer;
+}
+
+.operator:active, .number:active {
+    font-size: 14px;
+}
+
+.operator {
+    background-color: #e7bbbb;
+}
+
+.number {
+    background-color: #eaedef;
+    border: 1px solid palevioletred;
+}
+
