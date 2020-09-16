@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+table {
+    text-align: center;
+    color: black;
+    background-color: beige;
+    border-collapse: collapse;
+    color: red;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 7px;
+    width: 200px;
+}
+
+caption {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: palevioletred;
+}
+
+tbody tr:nth-child(5) {
+    background-color: pink;
+}
+
+tbody tr:nth-child(2) {
+    background-color: pink;
+}
+
+tbody tr:nth-child(8) {
+    background-color: pink;
+}
+
+thead tr:nth-child(2) {
+    background-color: pink;
+}
+
+.sublinhado {
+    text-decoration: purple underline;
+}
+
+tr:hover {
+    background-color: plum;
+    cursor: pointer;
+}
