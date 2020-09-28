@@ -1,0 +1,25 @@
+h2 {
+    text-align: center;
+}
+ 
+p {
+    width: 400px;
+    margin: 0 auto;
+}
+ 
+.flex-pai {
+    display: flex;
+}
+ 
+.flex-filho {
+    border: 5px dotted rgb(3, 82, 252);
+    background-color: rgb(59, 253, 0);
+    color: rgb(199, 5, 151);
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+ 
+.flex-filho:hover {
+    background-color: rgb(0, 211, 105);
+}
