@@ -1,0 +1,57 @@
+body {
+    font-family: arial;
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+  
+@media (min-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: auto 1fr auto;
+    }
+}
+  
+header {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: blue;
+    color: white;
+}
+  
+main {
+    flex: 1;
+    padding: 20px;
+}
+  
+nav {
+    background-color: rgb(217, 255, 0);
+    padding: 20px;
+}
+   
+aside {
+    padding: 20px;
+    background-color: rgb(241, 13, 127);
+}
+  
+footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: rgb(9, 241, 229);
+    color: white;
+}
+  
+h1 {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
